@@ -1,0 +1,80 @@
+{
+  "$schema": "[http://json-schema.org/draft-07/schema#](http://json-schema.org/draft-07/schema#)",
+  "$id": "[https://github.com/ton-pseudo/agent-registry/docs/schemas/agent-manifest.schema.json](https://github.com/ton-pseudo/agent-registry/docs/schemas/agent-manifest.schema.json)",
+  "title": "Agent Manifest",
+  "description": "Schema for registering a micro-agent with advanced verification audit trails.",
+  "type": "object",
+  "required": ["manifest_version", "agent_id", "name", "publisher", "verification", "interfaces", "capabilities"],
+  "properties": {
+    "manifest_version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "agent_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 50
+    },
+    "publisher": {
+      "type": "object",
+      "required": ["name", "contact"],
+      "properties": {
+        "name": { "type": "string" },
+        "website": { "type": "string", "format": "uri" },
+        "contact": { "type": "string", "format": "email" }
+      }
+    },
+    "verification": {
+      "type": "object",
+      "required": ["status", "method"],
+      "properties": {
+        "status": { 
+          "type": "string", 
+          "enum": ["unverified", "pending", "verified", "revoked"] 
+        },
+        "method": { 
+          "type": "string", 
+          "enum": ["manual_review", "ai_consensus", "cryptographic_proof", "none"] 
+        },
+        "verified_at": { "type": "string", "format": "date-time" },
+        "verified_by": { "type": "string" },
+        "claims": {
+          "type": "object",
+          "properties": {
+            "mcp_compliance": { "type": "boolean" },
+            "identity_verified": { "type": "boolean" },
+            "slr_compliant": { "type": "boolean", "description": "Service Level Reliability" }
+          }
+        }
+      }
+    },
+    "interfaces": {
+      "type": "object",
+      "properties": {
+        "mcp": {
+          "type": "object",
+          "required": ["endpoint", "version"],
+          "properties": {
+            "endpoint": { "type": "string", "format": "uri" },
+            "version": { "type": "string" },
+            "transport": { "type": "string", "enum": ["sse", "stdio", "websocket"] },
+            "auth_type": { "type": "string", "enum": ["none", "oauth2", "api_key", "bearer"] }
+          }
+        }
+      }
+    },
+    "capabilities": {
+      "type": "object",
+      "required": ["description"],
+      "properties": {
+        "description": { "type": "string", "minLength": 50 },
+        "tags": { "type": "array", "items": { "type": "string" } },
+        "languages": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  }
+}

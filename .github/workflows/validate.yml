@@ -1,0 +1,20 @@
+name: Global Manifest Validation
+on: [push, pull_request]
+
+jobs:
+  check-json:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - name: Install validator
+        run: pip install jsonschema
+      - name: Run validation
+        run: |
+          for file in examples/*.json; do
+            echo "Checking $file..."
+            python validate_manifest.py "$file"
+          done

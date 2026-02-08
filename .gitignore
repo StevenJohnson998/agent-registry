@@ -32,4 +32,4 @@ package-lock.json
 
 # Build outputs
 dist/
-build/
+build/private/

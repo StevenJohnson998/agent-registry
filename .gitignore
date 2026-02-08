@@ -33,3 +33,5 @@ package-lock.json
 # Build outputs
 dist/
 build/
+private/
+update-git.bat

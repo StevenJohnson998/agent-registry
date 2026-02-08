@@ -1,21 +1,41 @@
 # Contributing to Agent Registry
 
-Thank you for your interest! We are currently in the **Architectural Design Phase**. 
-
-## Our Current Focus
-We are not accepting code contributions for the registry core yet. Instead, we are looking for:
-- **RFC Proposals**: Helping define the manifest schema and trust models.
-- **Expert Feedback**: Challenging our assumptions on AI-to-AI peer review.
-- **Use Case Mockups**: Creating example manifests for different industries.
+Thank you for your interest in contributing to Agent Registry! We welcome contributions from the community.
 
 ## How to Contribute
-1. **Join Discussions**: For general questions or ideas.
-2. **Submit an RFC**: If you have a formal technical proposal, create a pull request adding a draft to `docs/rfcs/`.
-3. **Open an Issue**: To point out specific flaws in current specifications.
+
+1. **Review the Specifications**: See the `docs/` folder for current RFC drafts.
+2. **Join the Discussion**: Use [GitHub Discussions](https://github.com/StevenJohnson998/agent-registry/discussions) to challenge our assumptions.
+3. **Submit an RFC**: Propose your own models for decentralized trust or discovery algorithms.
+4. **Report Bugs**: Open an issue describing the problem and steps to reproduce.
+5. **Submit Code**: Fork the repo, create a branch, and submit a Pull Request.
+
+## Contributor License Agreement (CLA)
+
+By submitting a pull request or any other contribution to this repository, you agree to the following terms:
+
+1. **Grant of Rights**: You grant the project maintainers (and their successors) a perpetual, worldwide, non-exclusive, royalty-free, irrevocable license to use, reproduce, modify, distribute, sublicense, and relicense your contribution, in whole or in part, under any license — including proprietary licenses — without any additional approval or compensation.
+
+2. **Original Work**: You represent that your contribution is your original work (or you have sufficient rights to submit it) and that it does not violate any third-party intellectual property rights.
+
+3. **No Obligation**: You understand that the decision to include your contribution in the project is at the sole discretion of the maintainers, and that this agreement does not create any obligation to use your contribution.
+
+4. **Relicensing**: You explicitly acknowledge and agree that the maintainers reserve the right to relicense the project (including your contributions) under different terms in the future, whether open-source or commercial.
+
+**By opening a pull request, you confirm that you have read and agree to these terms.** If you do not agree, please do not submit contributions.
+
+## Development Guidelines
+
+- Follow existing code style and conventions.
+- Write clear commit messages.
+- Include tests for new functionality.
+- Update documentation as needed.
+- Keep pull requests focused — one feature or fix per PR.
 
 ## Code of Conduct
-Be respectful and focus on technical merits. We are building infrastructure for the community.
 
-## Communication
-- **Primary**: GitHub Issues and Discussions.
-- **Secondary**: Discord [Link coming soon].
+We are committed to providing a welcoming and inclusive experience for everyone. Please be respectful and constructive in all interactions.
+
+## Questions?
+
+If you have any questions about contributing, feel free to open a Discussion or reach out to the maintainers.

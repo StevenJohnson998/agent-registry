@@ -1,3 +1,8 @@
+> ⏸️ **PROJECT STATUS: ON HOLD**  
+> This project is paused while the maintainer focuses on other priorities.  
+> The architecture and design docs remain available for review and feedback.  
+> Contributions are welcome but may not be reviewed immediately.
+> 
 # Agent Registry
 
 > **The Trust & Privacy Layer for the Agentic Ecosystem.**

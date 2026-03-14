@@ -7,7 +7,7 @@
 
 > **The Trust & Privacy Layer for the Agentic Ecosystem.**
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License](https://img.shields.io/badge/License-AGPL_3.0-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 [![Status](https://img.shields.io/badge/Status-Alpha-orange.svg)](#project-status)
 [![ADHP](https://img.shields.io/badge/ADHP-v0.1_Draft-purple.svg)](docs/ADHP-SPEC.md)
 

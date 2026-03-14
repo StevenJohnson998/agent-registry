@@ -1,49 +1,72 @@
-# Contributor License Agreement (CLA)
+# Contributor License Agreement
 
-## Agent Registry Project
+## AIngram Ecosystem — Individual Contributor License Agreement (CLA)
 
-**Effective Date:** February 2026
+Thank you for your interest in contributing to projects maintained by Steven Johnson ("Maintainer"). This Contributor License Agreement ("Agreement") applies to all contributions made to any project in the AIngram ecosystem, including but not limited to: AIngram, Agorai, AgentRegistry, AgentScan, and ADHP.
 
-### Purpose
+By submitting a contribution (pull request, patch, code, documentation, or any other material) to any of these projects, you agree to the following terms:
 
-This Contributor License Agreement ("Agreement") establishes the terms under which contributions are made to the Agent Registry project ("Project"). This Agreement protects both the contributors and the Project maintainers.
+### 1. Definitions
 
-### Terms
+- **"Contribution"** means any original work of authorship, including modifications or additions, that you intentionally submit to any project covered by this Agreement.
+- **"Submit"** means any form of communication sent to the project (pull request, commit, issue comment, or similar), excluding communications conspicuously marked "Not a Contribution."
 
-By submitting any contribution (including but not limited to code, documentation, designs, ideas, or bug reports) to this Project via pull request, issue, discussion, or any other means, you ("Contributor") agree to the following:
+### 2. Grant of Copyright License
 
-#### 1. Grant of License
+You grant to the Maintainer a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare derivative works of, publicly display, publicly perform, sublicense, and distribute your Contributions and any derivative works.
 
-You grant the Project maintainers, and their successors and assigns, a perpetual, worldwide, non-exclusive, royalty-free, irrevocable license to:
+### 3. Grant of Patent License
 
-- Use, reproduce, modify, and distribute your contribution.
-- Sublicense your contribution to third parties.
-- **Relicense your contribution under any license**, including proprietary, commercial, or other open-source licenses, without requiring further permission or compensation.
+You grant to the Maintainer a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Contribution, where such license applies only to patent claims licensable by you that are necessarily infringed by your Contribution alone or by combination with the project.
 
-This grant applies to all intellectual property rights in your contribution, including copyright and patent rights.
+### 4. Right to Relicense
 
-#### 2. Representations
+You acknowledge and agree that the Maintainer may, at their sole discretion, change the license of the project (including your Contributions) to any other open-source or commercial license. This right is essential to the long-term sustainability of the ecosystem.
+
+### 5. Representations
 
 You represent that:
+- Each Contribution is your original creation.
+- You have the legal authority to enter into this Agreement and grant the licenses above.
+- Your Contribution does not violate any third-party rights (copyright, patent, trade secret, or other).
+- If your employer has rights to intellectual property you create, you have received permission to make Contributions on behalf of that employer, or your employer has waived such rights.
 
-- Your contribution is your original creation, or you have sufficient rights to grant the license above.
-- Your contribution does not violate any applicable law or third-party rights (including intellectual property, privacy, or contractual obligations).
-- If your contribution includes code or content from third parties, you have clearly identified it and confirmed it is compatible with this Agreement.
+### 6. "As Is" Basis
 
-#### 3. No Warranty
+Your Contributions are provided "AS IS", without warranty of any kind, express or implied.
 
-Your contributions are provided "as is," without warranty of any kind. You are not expected to provide support for your contributions unless you choose to do so.
+### 7. No Obligation
 
-#### 4. Relicensing Right
+You understand that the decision to include your Contribution in any project is entirely at the discretion of the Maintainer. You are not expected to provide support for your Contributions.
 
-You explicitly acknowledge that the Project maintainers may, at their sole discretion, change the license of the Project — including all past contributions covered by this Agreement — at any time. This includes relicensing under commercial or proprietary terms.
+### 8. Notification
 
-#### 5. Acceptance
-
-This Agreement is accepted automatically when you submit a contribution. No separate signature is required. If you do not agree to these terms, do not submit contributions.
+You agree to notify the Maintainer if you become aware of any facts or circumstances that would make the above representations inaccurate.
 
 ---
 
-**Project:** Agent Registry  
-**Repository:** https://github.com/StevenJohnson998/agent-registry  
-**Maintainer:** StevenJohnson998
+## How to Sign
+
+By submitting your first pull request to any project in the AIngram ecosystem, include the following statement in your PR description:
+
+> I have read and agree to the [Contributor License Agreement](CLA.md).
+
+This constitutes your electronic signature of this Agreement. You only need to sign once — it covers all projects in the ecosystem.
+
+---
+
+## Projects Covered
+
+This CLA covers contributions to the following repositories:
+
+| Project | Repository |
+|---------|-----------|
+| AIngram | `StevenJohnson998/AIngram` |
+| Agorai | `StevenJohnson998/Agorai` |
+| AgentRegistry | `StevenJohnson998/agent-registry` |
+| AgentScan | `StevenJohnson998/AgentScan` |
+| ADHP | `StevenJohnson998/agent-data-handling-policy` |
+
+---
+
+*This CLA is based on the Apache Individual Contributor License Agreement v2.0, adapted for the AIngram ecosystem.*

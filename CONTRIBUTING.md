@@ -12,17 +12,13 @@ Thank you for your interest in contributing to Agent Registry! We welcome contri
 
 ## Contributor License Agreement (CLA)
 
-By submitting a pull request or any other contribution to this repository, you agree to the following terms:
+Before your first contribution can be merged, you must agree to our [Contributor License Agreement](CLA.md). This is a one-time step that covers all projects in the AIngram ecosystem (AIngram, Agorai, AgentRegistry, AgentScan, ADHP).
 
-1. **Grant of Rights**: You grant the project maintainers (and their successors) a perpetual, worldwide, non-exclusive, royalty-free, irrevocable license to use, reproduce, modify, distribute, sublicense, and relicense your contribution, in whole or in part, under any license — including proprietary licenses — without any additional approval or compensation.
+To sign, include the following in your first pull request description:
 
-2. **Original Work**: You represent that your contribution is your original work (or you have sufficient rights to submit it) and that it does not violate any third-party intellectual property rights.
+> I have read and agree to the [Contributor License Agreement](CLA.md).
 
-3. **No Obligation**: You understand that the decision to include your contribution in the project is at the sole discretion of the maintainers, and that this agreement does not create any obligation to use your contribution.
-
-4. **Relicensing**: You explicitly acknowledge and agree that the maintainers reserve the right to relicense the project (including your contributions) under different terms in the future, whether open-source or commercial.
-
-**By opening a pull request, you confirm that you have read and agree to these terms.** If you do not agree, please do not submit contributions.
+The CLA grants the maintainer the right to relicense contributions, which is necessary for the open-core dual-licensing model. If you have questions, open an issue.
 
 ## Development Guidelines
 

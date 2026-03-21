@@ -3,7 +3,7 @@
 > The architecture and design docs remain available for review and feedback.  
 > Contributions are welcome but may not be reviewed immediately.
 > 
-# Agent Registry
+# AgentLedger
 
 > **The Trust & Privacy Layer for the Agentic Ecosystem.**
 
@@ -22,7 +22,7 @@ AI agents are multiplying. An orchestrator handling a financial analysis task mi
 - **What's the most cost-effective option** at the trust level I need?
 - **If it delegates to another agent, will the privacy and compliance chain hold?**
 
-Today, registries catalog agents. None of them answer these questions. **Agent Registry** is an open-source trust layer that does. We don't replace [MCP](https://modelcontextprotocol.io/) or [A2A](https://a2a-protocol.org/) — we complement them. MCP connects agents to tools. A2A lets agents talk to each other. **We help agents decide *who* to trust.**
+Today, registries catalog agents. None of them answer these questions. **AgentLedger** is an open-source trust layer that does. We don't replace [MCP](https://modelcontextprotocol.io/) or [A2A](https://a2a-protocol.org/) — we complement them. MCP connects agents to tools. A2A lets agents talk to each other. **We help agents decide *who* to trust.**
 
 ---
 
@@ -85,7 +85,7 @@ We're not competing with existing projects — we're filling a gap that none of 
 │  A2A Protocol ─── agents discover & talk to agents   │
 │  Kong/Solo.io ─── enterprise gateway & governance    │
 │                                                      │
-│  Agent Registry ─── WHO DO I TRUST? ◄── you are here │
+│  AgentLedger ───── WHO DO I TRUST? ◄── you are here │
 │    ├── ADHP: what happens to my data?                │
 │    ├── Compliance: GDPR, HIPAA, CCPA, POPIA...      │
 │    ├── KYC: who's behind this agent?                 │
@@ -124,8 +124,8 @@ See the [Roadmap](docs/ROADMAP.md) for what's coming.
 
 ```bash
 # Clone
-git clone https://github.com/StevenJohnson998/agent-registry.git
-cd agent-registry
+git clone https://github.com/StevenJohnson998/AgentLedger.git
+cd AgentLedger
 
 # Start (requires Docker)
 ./batch/run-dev.sh
@@ -178,7 +178,7 @@ curl "http://localhost:8000/agents?min_data_handling_level=strict&jurisdiction=E
 ## Repository Structure
 
 ```
-agent-registry/
+AgentLedger/
 ├── docs/                    # Specifications
 │   ├── ADHP-SPEC.md         # Agent Data Handling Policy specification
 │   ├── KYC-SPEC.md          # Operator verification specification

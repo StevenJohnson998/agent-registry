@@ -224,7 +224,9 @@ All contributions are welcome, from spec feedback to code to documentation.
 
 ## License
 
-Apache 2.0 — see [LICENSE](LICENSE).
+AGPLv3 — see [LICENSE](LICENSE). Dual licensing available for commercial use, [reach out](https://github.com/StevenJohnson998/AgentLedger/issues).
+
+Contributors must sign a [Contributor License Agreement](CLA.md).
 
 ---
 

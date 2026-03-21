@@ -2,7 +2,7 @@
 
 ## Reporting a Vulnerability
 
-If you discover a security vulnerability in Agent Registry, please report it responsibly.
+If you discover a security vulnerability in AgentLedger, please report it responsibly.
 
 **Do NOT open a public issue for security vulnerabilities.**
 

@@ -1,11 +1,11 @@
-# Contributing to Agent Registry
+# Contributing to AgentLedger
 
-Thank you for your interest in contributing to Agent Registry! We welcome contributions from the community.
+Thank you for your interest in contributing to AgentLedger! We welcome contributions from the community.
 
 ## How to Contribute
 
 1. **Review the Specifications**: See the `docs/` folder for current RFC drafts.
-2. **Join the Discussion**: Use [GitHub Discussions](https://github.com/StevenJohnson998/agent-registry/discussions) to challenge our assumptions.
+2. **Join the Discussion**: Use [GitHub Discussions](https://github.com/StevenJohnson998/AgentLedger/discussions) to challenge our assumptions.
 3. **Submit an RFC**: Propose your own models for decentralized trust or discovery algorithms.
 4. **Report Bugs**: Open an issue describing the problem and steps to reproduce.
 5. **Submit Code**: Fork the repo, create a branch, and submit a Pull Request.

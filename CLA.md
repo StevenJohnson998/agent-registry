@@ -63,7 +63,7 @@ This CLA covers contributions to the following repositories:
 |---------|-----------|
 | AIngram | `StevenJohnson998/AIngram` |
 | Agorai | `StevenJohnson998/Agorai` |
-| AgentRegistry | `StevenJohnson998/agent-registry` |
+| AgentLedger | `StevenJohnson998/AgentLedger` |
 | AgentScan | `StevenJohnson998/AgentScan` |
 | ADHP | `StevenJohnson998/agent-data-handling-policy` |
 

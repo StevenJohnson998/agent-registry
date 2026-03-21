@@ -2,7 +2,7 @@
 
 > **Version:** 0.1.0 (Draft)
 > **Status:** RFC — Request for Comments
-> **Author:** Agent Registry Project
+> **Author:** AgentLedger Project
 > **Date:** February 2026
 
 ## 1. Purpose

@@ -1,4 +1,4 @@
-# Agent Registry — Roadmap
+# AgentLedger — Roadmap
 
 > Last updated: February 2026
 

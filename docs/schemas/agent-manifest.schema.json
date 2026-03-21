@@ -1,6 +1,6 @@
 {
   "$schema": "[http://json-schema.org/draft-07/schema#](http://json-schema.org/draft-07/schema#)",
-  "$id": "[https://github.com/ton-pseudo/agent-registry/docs/schemas/agent-manifest.schema.json](https://github.com/ton-pseudo/agent-registry/docs/schemas/agent-manifest.schema.json)",
+  "$id": "[https://github.com/StevenJohnson998/AgentLedger/docs/schemas/agent-manifest.schema.json](https://github.com/StevenJohnson998/AgentLedger/docs/schemas/agent-manifest.schema.json)",
   "title": "Agent Manifest",
   "description": "Schema for registering a micro-agent with advanced verification audit trails.",
   "type": "object",
